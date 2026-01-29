@@ -1,3 +1,5 @@
+![Data Science First Header Image - Robotic Eyes](./images/header.png)
+
 # Data Science First
 ### Using Language Models in AI-Enabled Applications
 
@@ -19,4 +21,18 @@ You’ll find:
 An authoritative resource for data scientists and software engineers interested in using modern AI tools to build data-driven applications, Data Science First is a strategy guide for professionals navigating the discipline of data science as it is disrupted by generative AI. Whether you're looking to improve existing workflows or develop entirely new AI-powered solutions, you’ll discover how to use language models in ways that consistently add value.
 
  
+## Content
+
+### Chapter 01 - Language Models
+### Chapter 02 - Tools and Terminology
+### Chapter 03 - Data Science Essentials
+### Chapter 04 - Semantic Vectors
+### Chapter 05 - Insights and Interpretability
+### Chapter 06 - Zero to Few Shot Prompting
+### Chapter 07 - Labelling and Feature Engineering
+### Chapter 08 - Synthetic Data Generation
+### Chapter 09 - Retrieval Applications
+### Chapter 10 - Code as Language 
+### Chapter 11 - Automated Analytics
+### Chapter 12 - Agentic AI
 
