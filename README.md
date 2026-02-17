@@ -36,3 +36,9 @@ An authoritative resource for data scientists and software engineers interested 
 ### Chapter 11 - Automated Analytics
 ### Chapter 12 - Agentic AI
 
+
+## Contributing
+
+We strongly encourage readers to consider contributing a modified version of the scripts to our [community_contributions](community_contributions) section of the repository. You need only place your code in that directory and make a pull request. Please read through the [README](community_contributions/README.md) for detailed instructions.
+
+
