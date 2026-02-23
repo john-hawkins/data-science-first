@@ -20,13 +20,20 @@ You’ll find:
 
 An authoritative resource for data scientists and software engineers interested in using modern AI tools to build data-driven applications, Data Science First is a strategy guide for professionals navigating the discipline of data science as it is disrupted by generative AI. Whether you're looking to improve existing workflows or develop entirely new AI-powered solutions, you’ll discover how to use language models in ways that consistently add value.
 
+
+## Approach
+
+We supply the code listings from the book as individual Python file (or BASH scripts).
+In addition, we have combined some listings into Jupyter Notebooks to make it easier to follow along, makes changes and experiment with the ideas in the book.
+
+*Note* Some of the scripts are designed to be run on cloud computing infrastructure and were not migrated into Notebooks.
  
 ## Content
 
 ### Chapter 01 - Language Models
 ### Chapter 02 - Tools and Terminology
 ### Chapter 03 - Data Science Essentials
-### Chapter 04 - Semantic Vectors
+### [Chapter 04 - Semantic Vectors](chapter_04)
 ### Chapter 05 - Insights and Interpretability
 ### Chapter 06 - Zero to Few Shot Prompting
 ### Chapter 07 - Labelling and Feature Engineering
