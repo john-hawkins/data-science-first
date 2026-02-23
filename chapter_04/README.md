@@ -7,7 +7,7 @@ The two case studies look at extracting these semantic vectors using different t
 In both case studies we make use of the same dataset, a set of essays in which some have been authored by humans and others by generative AI systems. The core question is can we detect the difference between them and detect some natural themes within the essays.
 
 
-## Case Study 4.1 - Binary Classification
+## Case Study 4.1 - Detecting AI Content - Binary Classification
 
 Start with the initial [Data Preparation Notebook](CaseStudy_4.1_00_DataPrep.ipynb) 
 and work your way forward through the notebooks and scripts.
@@ -19,6 +19,14 @@ In this case study we will:
 * Finally we test a range of semantic vectors as features for the same models
 
 
-## Case Study 4.2 - Clustering
+## Case Study 4.2 - Topic Modelling using Clustering
 
+In the second case study we treat the dataset of essays as text data for topic modelling.
+The idea is to find natural categories for the themes of the essays in the complete data so that we can group the essays by topic.
+
+The ideas demonstrated are:
+* Using empirical methods to settle on the paramter k for k-means clustering
+* Generating clusters and allocating data
+* Generating natural language names for clusters with LLMs.
+* Visualising topics clusters over simple statistical dimensions
 
