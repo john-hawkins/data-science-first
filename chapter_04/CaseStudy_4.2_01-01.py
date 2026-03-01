@@ -32,6 +32,6 @@ for i, label in enumerate(labels):
 df['cluster'] = labels
 df['dist_to_centroid']=  distances_to_assigned_centroid
 
-newdf = df.loc[:,['source','text', 'generated', 'cluster','dist_to_centroid', 'text_len', 'text_avg_wl']].copy()
+newdf = df.loc[:,['source', 'text', 'generated', 'cluster','dist_to_centroid', 'text_len', 'text_avg_wl', 'RANDOM']].copy()
 newdf.to_csv("data/clustered_data.csv", index=False)
 
