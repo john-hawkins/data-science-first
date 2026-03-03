@@ -34,8 +34,8 @@ In addition, we have combined some listings into Jupyter Notebooks to make it ea
 ### Chapter 02 - Tools and Terminology
 ### Chapter 03 - Data Science Essentials
 ### [Chapter 04 - Semantic Vectors](chapter_04)
-### Chapter 05 - Insights and Interpretability
-### Chapter 06 - Zero to Few Shot Prompting
+### [Chapter 05 - Insights and Interpretability](chapter_05)
+### [Chapter 06 - Zero to Few Shot Prompting](chapter_06)
 ### Chapter 07 - Labelling and Feature Engineering
 ### Chapter 08 - Synthetic Data Generation
 ### Chapter 09 - Retrieval Applications
