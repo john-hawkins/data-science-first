@@ -19,6 +19,20 @@ You can simply start the notebook with the command:
 uv run jupyter notebook CaseStudy_7.1_01_Labelling.ipynb  
 ```
 
+Processing all of the records is doe with the CLI script:
+
+```
+uv run python process_json_files.py free-news-datasets/law ./law_test.csv 
+uv run python process_json_files.py free-news-datasets/biz ./biz_test.csv
+``` 
+
+Analysis of those results is done as follows:
+
+```
+uv run python analyse_results.py ./law_test.csv ./biz_test.csv
+```
+
+
 ## Case Study 7.2 - Feature Engineering
 
 
