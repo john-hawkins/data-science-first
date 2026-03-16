@@ -35,4 +35,21 @@ uv run python analyse_results.py ./law_test.csv ./biz_test.csv
 
 ## Case Study 7.2 - Feature Engineering
 
+In the second case study we explore the idea of using a generative language model to create features for a dataset.
+The case study focuses on a education technology application in which we look at creating features that will be used across multiple models that score
+student essays for various aspects of writing quality.
+
+Use the [Jupyter Notebook](CaseStudy_7.2_01_Features.ipynb) to step through the fundamental ideas in this case study.
+
+The complete set of code is compiled into a [single command line application](essay_features.py) to process a dataset of essays and produce all features for each record in the data. That script can be invoked as follows:
+
+```
+uv run python essay_features.py data/Essays.csv data/Essays_scored.csv
+```
+
+You can then evaluate the features using a script that looks at correlation between our generated features and the established quantitative methos of evaluating writing. Ideally you want to see some correlation (indicting coherenece in what is being measured), but also sufficient independence to indicate that you features could have novel information value.
+
+```
+uv run python analyse_essays.py data/Essays_scored.csv
+```
 
