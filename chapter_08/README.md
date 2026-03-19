@@ -23,6 +23,7 @@ That notebook makes uses of the content of the indivual code listings shown in t
 
 The final script for generating the complaint emails can be found here: [generate_complaint_emails.py](generate_complaint_emails.py)
 
+
 For the visualisation and analysis of the generated data we used a script to create Instruct embeddings,
 this script can be found here: [generate_embeddings.py](generate_embeddings.py)
 
