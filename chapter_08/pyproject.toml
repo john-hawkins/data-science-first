@@ -1,0 +1,17 @@
+[project]
+name = "chapter-08"
+version = "0.1.0"
+description = "Data Science First - Chapter 08 - Synthetic Data Generation"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "datasets>=4.8.3",
+    "jupyter>=1.1.1",
+    "langchain>=1.2.13",
+    "langchain-google-genai>=4.2.1",
+    "langchain-ollama>=1.0.1",
+    "matplotlib>=3.10.8",
+    "pandas>=3.0.1",
+    "scikit-learn>=1.8.0",
+    "tqdm>=4.67.3",
+]
