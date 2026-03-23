@@ -37,7 +37,7 @@ In addition, we have combined some listings into Jupyter Notebooks to make it ea
 ### [Chapter 05 - Insights and Interpretability](chapter_05)
 ### [Chapter 06 - Zero to Few Shot Prompting](chapter_06)
 ### [Chapter 07 - Labelling and Feature Engineering](chapter_07)
-### Chapter 08 - Synthetic Data Generation
+### [Chapter 08 - Synthetic Data Generation](chapter_08)
 ### Chapter 09 - Retrieval Applications
 ### Chapter 10 - Code as Language 
 ### Chapter 11 - Automated Analytics
