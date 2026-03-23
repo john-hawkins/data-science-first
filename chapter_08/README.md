@@ -37,4 +37,34 @@ We then visualised and audited the generated data in the final listsings of the 
 In the second case study we want to build a system for a publishing company that can recognise common problems
 in the translaton of books for foreign markets. We use the generative capacities of multi-language models to
 build up a dataset that exemplifies these specific idiom translation problems.
+ 
+You can step through the code and a small amount of documentation using the Jupyter Notebook file:
+[CaseStudy_8.2_01_Idioms.ipynb](CaseStudy_8.2_01_Idioms.ipynb). Alternatively, you can go through raw
+python scripts:
+
+* [CaseStudy_8.2_01.py](CaseStudy_8.2_01.py)
+* [CaseStudy_8.2_02.py](CaseStudy_8.2_02.py)
+* [CaseStudy_8.2_03.py](CaseStudy_8.2_03.py)
+* [CaseStudy_8.2_04.py](CaseStudy_8.2_04.py)
+* [CaseStudy_8.2_05.py](CaseStudy_8.2_05.py)
+   
+After the dataset has been created we then introduced the use of BERT models for sentence pair classification
+as shown in the second notebook: [CaseStudy_8.2_02_BERT.ipynb](CaseStudy_8.2_02_BERT.ipynb)
+
+* [CaseStudy_8.2_06.py](CaseStudy_8.2_06.py)
+* [CaseStudy_8.2_07.py](CaseStudy_8.2_07.py)
+* [CaseStudy_8.2_08.py](CaseStudy_8.2_08.py)
+
+### Errata: Missing Figure in Chapter 8
+ 
+There is a missing figure in this chapter. The image displayed as Figure 8.3 should actually be the 
+confusion matrix shown below. 
+
+[!Few-Shot Classifier Confusion Matrix](results/few_shot_cm.png)
+
+The figure labelled as 8.3 in the book should be labelled Figure 8.4, the later reference to Figure 8.3 
+is for the precision recall curve for the fine-tuned BERT model, shown below.
+
+[!Idiom Classifier Precision-Recall Curve](results/idiom_transalation_PRC.png)
+
 
