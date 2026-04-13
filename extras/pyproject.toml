@@ -1,0 +1,11 @@
+[project]
+name = "extras"
+version = "0.1.0"
+description = "Extra content for the book Data Science First"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.94.0",
+    "jupyter>=1.1.1",
+    "pandas>=3.0.2",
+]
